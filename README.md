@@ -4,7 +4,7 @@
  📌 Overview
 BlackOut is a powerful tool designed to simulate Distributed Denial of Service (DDoS) attacks for **educational** and **ethical** purposes. It provides a controlled environment to stress-test servers and networks with customizable attack modes. 
 
-With support for **TCP** and **UDP** attack types, this tool lets you simulate realistic attack scenarios. Key features include the ability to use **random IP addresses** in the packet header, **multiple targets** per attack, and **customizable thread count**.
+With support for **UDP** attack types, this tool lets you simulate realistic attack scenarios. Key features include the ability to use **random IP addresses** in the packet header, **multiple targets** per attack, and **customizable thread count**.
 
 ---
 
@@ -24,13 +24,13 @@ With support for **TCP** and **UDP** attack types, this tool lets you simulate r
 🖥️ **User Interface Layout**
 ```
 ------------------------------------------------------
-| [ Target IPs     ] [ Port ] [ Attack Type TCP/UDP ] |
+| [ Target IPs     ] [ Port ] [ Attack Type UDP ] |
 | [ Threads ] [ Attack Duration (sec) ]              |
 |                                                    |
 | [ Start Attack 🔥 ] [ Stop Attack 🛑 ]              |
 |                                                    |
 | Packets Sent: 3453 Packets/sec: 570                |
-| Progress Bar showing load... ▓▓▓▓▓▓░░░░░░ 55%      |
+| |
 |                                                    |
 | (Black background, Red buttons, White text)        |
 ------------------------------------------------------
